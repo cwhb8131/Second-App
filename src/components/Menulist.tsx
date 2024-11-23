@@ -155,7 +155,7 @@ const MenuList: React.FC = () => {
           </tr>
         </thead>
         <tbody>
-           {/* {menus.map((menuItem, index) => (
+           {menus.map((menuItem, index) => (
             <DraggableMenuItem
               key={menuItem.id}
               index={index}
@@ -164,7 +164,7 @@ const MenuList: React.FC = () => {
               handleEditMenu={handleEditMenu}
               handleShowClearModal={handleShowClearModal}
             />
-          ))}  */}
+          ))} 
            {menus.map((menuItem, index) => (
             <tr>
               <td className="text-lg text-info">
